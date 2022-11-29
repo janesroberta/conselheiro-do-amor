@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgb(187, 30, 95);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coracao {
+    display: inline-block;
+    width: 400px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(white 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+}
+
